@@ -7,4 +7,3 @@
     <h1>Austin Tindal</h1>
   </body>
 </html>
-</html>
