@@ -1,21 +1,44 @@
 body {
     background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 h1 {
     color:darkslategray;
     text-align: center;
+    width: 100%;
+}
+
+h1:hover {
+    color:maroon;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
 }
 
 .assign {
+    background-color: grey;
     margin: 10px;
     padding: 10px;
-    background-color: grey;
-    display: flex;
+    border-radius: 20px;
+    display: block;
+    width: 20%;
+    box-shadow: 8px 8px gainsboro;
 }
 
 .assign img {
     width: 200px;
     padding: 10px;
+    border: 2px solid midnightblue;
+}
+
+.assign img:hover {
+    width: 200px;
+    padding: 10px;
+    border: 2px dotted yellow;
 }
